@@ -1,6 +1,51 @@
+body{
+    margin: 0;
+}
+.products{
+    margin-top: 100px;
+}
 .carousel{
-    background-image: url(images/bg-1.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-image: url(images/bg-1.png), url(images/bg-2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, left bottom;
+    background-size: contain, 200px 200px;
+
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card img{
+    width: 300px;
+}
+
+.cat-1, .cat-2, .cat-3{
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20ox;
+}
+
+.jhamela h2{
+    text-align: center;
+}
+
+.jhamela h2::after{
+content: "";
+display: block;
+height: 4px;
+width: 60px;
+margin: 10px auto;
+background-color: orange;
+border-radius: 2px;
+}
+
+.jhamela{
+    margin-top: 100px;
+}
+
+footer{
+    text-align: center;
+    color: dimgray;
 }
