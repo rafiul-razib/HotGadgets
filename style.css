@@ -49,3 +49,17 @@ footer{
     text-align: center;
     color: dimgray;
 }
+
+.carousel-indicators li{
+height: 4px;
+width: 10px;
+background-color: orange;
+border-radius: 2px;
+}
+
+.carousel-indicators li.active{
+height: 4px;
+width: 10px;
+background-color: red;
+border-radius: 2px;
+}
